@@ -8,25 +8,27 @@
 @import url(__span-accent/intro__span-accent.css);
 
 .intro {
-    max-width: 984px;
+    max-width: 690px;
     margin: auto;
-    padding-top: 48px;
+    padding: 92px 442px 0 148px;
 }
-
-@media (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .intro {
-        padding: 64px 16px 0;
+        padding: 92px 286px 0 48px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .intro {
-        padding: 80px 24px 0;
+        max-width: 720px;
+        padding: 88px 24px 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro {
+        max-width: 288px;
+        padding: 64px 16px 0;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .intro {
-        max-width: 928px;
-    }
-}
+

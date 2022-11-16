@@ -1,6 +1,7 @@
 .place__image {
     max-width: 460px;
     object-fit: contain;
+padding: 
 }
 
 @media (max-width: 767px) {
@@ -15,6 +16,4 @@
         width: 100%;
     }
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
+

@@ -4,32 +4,34 @@
 
 .footer {
     max-width: 1184px;
-    margin: 160px auto 0;
-    padding-bottom: 48px;
+    margin:auto;
+    padding: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
+    height: 18px
 }
 
 @media (max-width: 767px) {
     .footer {
-        min-height: 312px;
-        margin-top: 64px;
-        margin-left: 16px;
-        padding-bottom: 24px;
+        max-width: 1184px;
+        padding:92px 48px 24px;
         flex-direction: column;
     }
 }
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .footer {
-        padding-bottom: 24px;
-        margin: 102px 23px 0;
-    }
-}
-
 @media (min-width: 1024px) and (max-width: 1279px) {
     .footer {
-        margin: 160px 47px 0;
+        max-width: 928px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        max-width: 720px;
+        padding: 88px 24px 24px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer {
+        padding: 64px 118px 24px 16px;
+        min-height: 310px;
     }
 }

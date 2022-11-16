@@ -3,21 +3,35 @@
 @import url(__link/cover__link.css);
 
 .cover {
-    margin: 102px auto 0;
+    margin: 92px 48px 0;
     background-image: url(../../../images/cover.jpg);
     background-size: cover;
     background-position: center;
     max-width: 1184px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:  #2A2C2F;
     background-blend-mode: multiply;
 }
 
 .cover:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-@media (max-width: 767px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
     .cover {
-        margin-top: 48px;
+        max-width: 1024px;
+        margin: 92px 0 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width:1023px) {
+    .cover {
+        max-width: 768px;
+        margin: 90px 0 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width:480px) {
+    .cover {
+        max-width: 320px;
+        margin: 66px 0 0;
     }
 }
