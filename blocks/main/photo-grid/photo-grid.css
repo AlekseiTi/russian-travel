@@ -22,7 +22,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .photo-grid {
-        max-width: 720px;;
+        max-width: 720px;
         padding: 88px 24px 0;
         grid-template-columns: calc(50% - 12px) calc(50% - 12px);
         grid-gap: 16px;
