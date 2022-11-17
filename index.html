@@ -5,18 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Россия</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
-
 <body>
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/logo.png" alt="Логотип">
-            <div class="header__languages">
-                <a class="header__lang header__lang_active" href="#">Ru</a>
-                <a class="header__lang" href="#">En</a>
-            </div>
+            <ul class="header__languages">
+                <li class="header__lang header__lang_active" href="#">Ru</li>
+                <li class="header__lang" href="#">En</li>
+            </ul>
         </header>
 
         <main class="content">
@@ -170,13 +168,13 @@
 
         </main>
         <footer class="footer">
-            <div class="footer__links">
-                <a class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-            </div>
+            <nav class="footer__links">
+                <li class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</li>
+                <li class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</li>
+                <li class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</li>
+                <li class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</li>
+                <li class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</li>
+            </nav>
             <p class="footer__copyright">2022 &copy; Timofeev Aleksei</p>
         </footer>
     </div>

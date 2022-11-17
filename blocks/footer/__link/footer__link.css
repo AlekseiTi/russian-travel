@@ -5,6 +5,7 @@
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 18px;
+    list-style-type: none;
 }
 
 .footer__link:hover {
