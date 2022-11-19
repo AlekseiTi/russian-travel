@@ -1,18 +1,10 @@
 .footer {
     max-width: 1184px;
-    margin:auto;
+    margin:0 auto 0;
     padding: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
     height: 18px;
-}
-
-@media (max-width: 767px) {
-    .footer {
-        max-width: 1184px;
-        padding:92px 48px 24px;
-        flex-direction: column;
-    }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
     .footer {
@@ -29,5 +21,6 @@
     .footer {
         padding: 64px 118px 24px 16px;
         min-height: 310px;
+        flex-direction: column;
     }
 }

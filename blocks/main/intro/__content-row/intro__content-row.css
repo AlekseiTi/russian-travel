@@ -1,6 +1,6 @@
 .intro__content-row {
     max-width: 690px;
-    margin: auto;
+    margin: 0;
     display: flex;
     justify-content: space-between;
 }

@@ -2,10 +2,12 @@
     display: flex;
    flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 48px;
 }
 
 @media (max-width: 767px) {
     .place__website {
-        display: none;
+        display: block;
+        margin: 32px 16px 0;
     }
 }

@@ -4,6 +4,7 @@
     font-size: 54px;
     line-height: 58px;
     color: #FFFFFF;
+    margin: auto;
 }
 
 @media (min-width: 720px) and (max-width: 1023px) {
@@ -12,7 +13,7 @@
     }
 }
 @media (min-width: 320px) and (max-width: 719px) {
-    .intro__title{
+    .intro__title {
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;

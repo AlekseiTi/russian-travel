@@ -1,19 +1,20 @@
 .cover {
-    margin: 92px 0 0;
+    margin: 92px auto 0;
     background-image: url(../../../images/cover.jpg);
     background-size: cover;
     background-position: center;
-    max-width: 100%;
-    background-color:  #2A2C2F;
+    max-width: 1284px;
+    background-color:  rgba(0, 0, 0, 0.25);
     background-blend-mode: multiply;
 }
 
 .cover:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #2A2C2F;
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
     .cover {
         margin: 92px 0 0;
+        max-width: 100%;
     }
 }
 
