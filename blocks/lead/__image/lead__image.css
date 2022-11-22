@@ -9,7 +9,6 @@
     .lead__image{
         margin-top: 56px;
         max-width: 928px;
-        filter: drop-shadow(0 4px 4px rgb(255,255,255));
     }
 }
 @media (max-width: 1023px) {
