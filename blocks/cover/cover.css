@@ -4,11 +4,11 @@
     background-size: cover;
     background-position: center;
     max-width: 1184px;
-    background-color:  rgba(0, 0, 0, 0.25);
+    background-color:  rgba(42, 44, 47, 0.3);
     background-blend-mode: multiply;
 }
 .cover:hover {
-    background-color: #2A2C2F;
+    background-color: rgba(42, 44, 47, 0.75);
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
     .cover {
