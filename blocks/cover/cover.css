@@ -4,24 +4,28 @@
     background-size: cover;
     background-position: center;
     max-width: 1184px;
-    background-color:  rgba(42, 44, 47, 0.3);
+    background-color: rgba(42, 44, 47, 0.3);
     background-blend-mode: multiply;
 }
+
 .cover:hover {
     background-color: rgba(42, 44, 47, 0.75);
 }
-@media (min-width: 1024px) and (max-width: 1279px) {
+
+@media (max-width: 1279px) {
     .cover {
         margin: 92px 0 0;
         max-width: 100vw;
     }
 }
-@media (min-width: 481px) and (max-width:1023px) {
+
+@media (max-width:1023px) {
     .cover {
         margin: 90px 0 0;
     }
 }
-@media (min-width: 320px) and (max-width:480px) {
+
+@media (max-width:480px) {
     .cover {
         margin: 66px 0 0;
     }

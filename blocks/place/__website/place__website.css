@@ -1,19 +1,11 @@
 .place__website {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 48px;
 }
-@media (max-width: 1024px) {
-    .place__website {
-    margin-bottom: 0;
-    }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-    .place__website {
-    }
-}
-@media (max-width: 767px) {
+
+@media (max-width: 480px) {
     .place__website {
         display: block;
         margin-top: 32px;

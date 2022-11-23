@@ -6,17 +6,16 @@
     color: #FFFFFF;
     margin: 40px 0 33px;
 }
+
 @media (max-width: 1023px) {
     .intro__main-text {
-        max-width: 100%;
-    }
-}
-@media (max-width: 425px) {
-    .intro__main-text {
-        max-width: 288px;
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 34px;
+        max-width: 720px;
     }
 }
 
+@media (max-width: 480px) {
+    .intro__main-text {
+        max-width: 288px;
+        margin-bottom: 34px;
+    }
+}

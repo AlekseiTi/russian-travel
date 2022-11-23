@@ -4,10 +4,11 @@
     font-size: 72px;
     line-height: 76px;
     color: #FFFFFF;
-    margin: 0;
+    margin-bottom: 48px;
     padding: 0;
     vertical-align: bottom;
 }
+
 @media (max-width:1024px) {
     .place__title {
         max-width: 440px;
@@ -24,6 +25,7 @@
         height: 58px;
     }
 }
+
 @media (max-width: 767px) {
     .place__title {
         margin: 0 16px 0;

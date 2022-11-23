@@ -1,11 +1,12 @@
 .page {
     width: 100%;
     margin: 0 auto;
-    font-family: 'Inter' , 'Arial';
+    font-family: 'Inter', 'Arial';
     background-color: #2A2C2F;
     border: 0;
     padding: 0;
 }
+
 .root {
     margin: 0;
     padding: 0;

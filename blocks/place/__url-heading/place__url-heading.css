@@ -4,10 +4,5 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 0.2em;
-    color: #000000;
-}
-@media (min-width: 320px) and (max-width:1024px) {
-    .place__url-heading {
-        color: #AAAAAA;
-    }
+    color: #AAAAAA;
 }
